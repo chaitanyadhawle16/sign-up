@@ -1,0 +1,37 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.iconSpan{
+    position: relative;
+    right:35px;
+    bottom: 3px;
+}
+input{
+    width: 200px;
+    max-width: inherit;
+    padding: 10px;
+    margin: 10px;
+}
+
+.error{
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: start;
+    font-size: 0.7rem;
+    color: red;
+}
+
+
+ 
+
